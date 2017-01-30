@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+img {
+   max-width: 100%;
+}
+
+/* cover */
+#cover {
+  background:  linear-gradient(-255deg, rgba(255, 255, 255, 0.15) 0%, rgba(41, 43, 44, 0.42) 50%), image-url('bg-1.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
