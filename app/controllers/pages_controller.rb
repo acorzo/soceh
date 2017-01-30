@@ -3,6 +3,6 @@ class PagesController < ApplicationController
   end
   def contact
   end
-  def project
+  def projects
   end
 end
